@@ -1,6 +1,6 @@
 # Taxi-service
 
-### M first project using Java language
+### My first project using Java language
 
 - Taxi-service was created to show knowledge of JAVA Core, JDBC, SQL, HTML, SOLID.
 - Application has simple registration, authentication and authorization features. Authentication based on HttpSession and filter which does not allow client access the resource. Authorization based on filter with 2 roles (admin, driver).
