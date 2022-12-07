@@ -1,4 +1,4 @@
-package taxi.service;
+package taxi.service.impl;
 
 import taxi.dao.DriverDao;
 import taxi.exception.DataProcessingException;
@@ -6,6 +6,7 @@ import taxi.exception.RegistrationException;
 import taxi.lib.Inject;
 import taxi.lib.Service;
 import taxi.model.Driver;
+import taxi.service.RegisterService;
 
 @Service
 public class RegisterServiceImpl implements RegisterService {

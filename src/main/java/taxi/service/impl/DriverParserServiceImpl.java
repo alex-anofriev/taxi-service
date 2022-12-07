@@ -1,10 +1,11 @@
-package taxi.service;
+package taxi.service.impl;
 
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import taxi.lib.Service;
 import taxi.model.Driver;
 import taxi.model.Role;
+import taxi.service.DriverParserService;
 
 @Service
 public class DriverParserServiceImpl implements DriverParserService {
